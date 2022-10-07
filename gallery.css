@@ -1,0 +1,63 @@
+html{
+    background-color: black;
+}
+.sideMenu .container-md{
+    background: rgb(38, 38, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    /* box-shadow: 5px -.5px rgba(0, 0, 0, 0.468); x,y, color */
+    
+}
+
+.logo{
+    text-align: center;
+}
+#logoA{
+    color: rgb(216, 216, 216);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+#logoB{
+    color: rgb(216, 216, 216);
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.nav-item a{
+    color: rgb(216, 216, 216);
+}
+
+.nav-item a:hover{
+    color:aqua;
+}
+
+.menu{
+   text-align: center;
+   margin-top: 50%;
+}
+
+.sm-icons li i{
+    color: rgb(216, 216, 216);
+    
+}
+
+.sm-icons{
+    
+  
+}
+
+.sm-icons ul{
+    display: inline-flex;
+    width: 50px;
+    
+
+}
