@@ -69,16 +69,27 @@ html{
 }
 
 /* ----Mossaic Gallery---- */
+.gallery .container-md{
+   width: 50%;
+   margin:5% 30%;
 
-.gallery{
-    margin: 0 auto;
-    float: right;
-    width: 700px;
+}
+
+.column{
+    float: right; 
+    text-align: center;
+    margin:0 auto;
+    column-count:         4;
+    column-gap:           0px;  
+    
 }
 
 
-img{
-    width:30%; 
-   height: auto; 
-   display: block;
+.column > img{
+   width: 100%;
+   height: auto;
+   padding-top: 1px;
+
+    
+   /* display: block; */
 } 
