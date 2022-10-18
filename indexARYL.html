@@ -26,7 +26,7 @@
 
              
             <!--Menu-->
-            <div class="menu">
+         <div class="menu">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="indexARYL.html">Gallery</a>
@@ -51,6 +51,11 @@
                
                 
             </div>
+
+
+            <div class="modeButton">
+                <button type="button" class="btn btn-light btn-sm"><span>Light Mode</span></button>
+            </div>
               
 
 
@@ -66,18 +71,68 @@
 
         <div class="container-md">
             <div class="column">
-                <img src="Cat.jpg" alt="Cat">
-                <img src="Cyclist.jpg" alt="Cyclist">
-                <img src="Daisies.jpg" alt="Daisy Earrings">
-                <img src="Hurry.jpg" alt="Hurry">
-                <img src="Midtown.jpg" alt="Midtown Cafe">
-                <img src="Model.jpg" alt="Model">
-                <img src="Moth.jpg" alt="Moth">
-                <img src="Glasses.jpg" alt="Glasses">
-                <img src="Cafe.jpg" alt="Cafe">
+                <img src="Cat.jpg" alt="Cat" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <img src="Cyclist.jpg" alt="Cyclist" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <img src="Hurry.jpg" alt="Hurry" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <img src="Midtown.jpg" alt="Midtown Cafe" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <img src="Model.jpg" alt="Model" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                <img src="Moth.jpg" alt="Moth" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                <img src="Glasses.jpg" alt="Glasses" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                <img src="Cafe.jpg" alt="Cafe" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                
+                
             </div>
             
         </div>
+
+        <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <img src="Cat.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <img src="Cyclist.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <img src="Hurry.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <img src="Midtown.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <img src="Model.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <img src="Moth.jpg" style="width:50%">
+      </div>
+
+      
+      <div class="mySlides">
+        <img src="Glasses.jpg" style="width:50%">
+      </div>
+
+      
+      <div class="mySlides">
+        <img src="Cafe.jpg" style="width:50%">
+      </div>
+
+
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+
+    </div>
+  </div>
 
 
 

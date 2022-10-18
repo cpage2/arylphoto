@@ -47,7 +47,7 @@ html{
 }
 
 .nav-item a:hover{
-    color:aqua;
+    color:rgb(144, 144, 144);
 }
 
 .menu{
@@ -63,7 +63,76 @@ html{
 
 .sm-icons{
     text-align: center;
-    margin-top: 70%;
+    margin-top: 60%;
     
   
 }
+
+.modeButton{
+    text-align: center;
+    padding-top: 25%;
+}
+
+
+.modeButton span{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.about{
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin: 5% 17%;
+}
+
+.about p, img {
+    color:  rgb(216, 216, 216);
+}
+
+.profile-img img{
+    /* padding-bottom: 5%; */
+    width:100%; 
+    
+    /* height: auto; */
+    /* border-radius: 50%; */
+}
+
+
+.profile-img{
+   margin: 0 auto;
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-bottom: 7%;
+
+}
+
+
+#phReference{
+    font-size: 12px;
+    color: rgb(79, 79, 79);
+}
+
+
+
+
+ /* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+ /* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, 992px and up) 
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... } */
