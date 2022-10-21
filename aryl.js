@@ -1,9 +1,26 @@
 // Light mode
 
-function lightMode(){
-    let element = document.html;
-    element.classList.toggle("light-mode");
+let colorBTN = document.querySelector('#modeB');
+let modeSpan = document.querySelector('#mode');
+
+
+let lm = function lightMode(){
+  document.body.style.backgroundColor = 'white';
+  modeSpan = 'Dark Mode';
+
 }
+let dm = function darkMode(){
+  document.body.style.backgroundColor = 'black';
+  modeSpan.innerHTML = 'Light Mode';
+  
+}
+
+if(modeSpan == 'Light Mode'){
+  colorBTN.addEventListener('click', lm);
+}else{
+  colorBTN.addEventListener('click', dm);
+}
+
 
 
 
