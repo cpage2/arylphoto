@@ -1,3 +1,13 @@
+// Light mode
+
+function lightMode(){
+    let element = document.html;
+    element.classList.toggle("light-mode");
+}
+
+
+
+
 // Open the Modal
 function openModal() {
     document.getElementById("myModal").style.display = "block";

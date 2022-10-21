@@ -1,6 +1,10 @@
 html{
-    background-color: black;
+     background-color: black; 
+     
+   
 }
+
+
 .sideMenu .container-md{
     background: rgb(38, 38, 38);
     position: fixed;
