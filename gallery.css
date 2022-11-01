@@ -1,12 +1,19 @@
-body{
-     color: black; 
-     
-   
+html body{
+  background-color: black;  
 }
 
+.lightMode{
+  background-color: white;
+  
+}
+.lightModeMenu{
+  background-color: rgb(232,232,232);
+  /* color: black; */
+}
 
 .sideMenu .container-md{
-    background: rgb(38, 38, 38);
+    /* background:; */
+    background-color: rgb(38, 38, 38);
     position: fixed;
     top: 0;
     left: 0;
