@@ -5,6 +5,13 @@ let colorBTN = document.querySelector('#modeB');
 let modeSpan = document.querySelector('#mode');
 let bd  = document.body; 
 let menuBG = document.querySelector('.sideMenu .container-md')
+let linkColor = document.querySelectorAll('div.nav-item > a');
+let logoA = document.querySelector('#logoA');
+let logoB = document.querySelector('#logoB');
+let line  = document.querySelector('.line');
+let smIcons = document.querySelectorAll('div.sm-icons > i');
+const darkGray = 'rgb(38,38,38)';
+const offWhite = 'rgb(216,216,216)';
 
 
 
@@ -13,16 +20,25 @@ let mC = function modeChanger(){
   
    bd.classList.toggle("lightMode");
 
-   if(modeSpan.innerHTML === "Light Mode"){
+   if(modeSpan.innerHTML === "Light Mode"){//While already in dark mode
       modeSpan.innerHTML = "Dark Mode";
       menuBG.style.backgroundColor = 'rgb(232,232,232)';
-    
+      logoA.style.color = darkGray;
+      logoB.style.color = darkGray;
+      line.style.background = darkGray;
+   
+      
+     
+
       
       
 
    }else{
     modeSpan.innerHTML = "Light Mode";
-    menuBG.style.backgroundColor = 'rgb(38, 38, 38)'
+    menuBG.style.backgroundColor = darkGray;
+    logoA.style.color =offWhite;
+      logoB.style.color = offWhite;
+      line.style.background = offWhite;
    }
   
 

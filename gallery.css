@@ -6,10 +6,6 @@ html body{
   background-color: white;
   
 }
-.lightModeMenu{
-  background-color: rgb(232,232,232);
-  /* color: black; */
-}
 
 .sideMenu .container-md{
     /* background:; */
@@ -26,7 +22,7 @@ html body{
 }
 
 a:link:active{
-    border: 1px solid;
+    /* border: 1px solid; */
     border-color: rgb(216, 216, 216);
 
 }
@@ -72,7 +68,7 @@ a:link:active{
    margin-top: 60%;
 }
 
-.sm-icons i{
+i{
     color: rgb(216, 216, 216);
     padding-right: 2px;
     
