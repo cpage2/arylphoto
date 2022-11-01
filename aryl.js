@@ -1,28 +1,39 @@
 // Light mode
+// on load make background black
 
 let colorBTN = document.querySelector('#modeB');
 let modeSpan = document.querySelector('#mode');
+let bd  = document.body; 
+let menuBG = document.querySelector('.sideMenu .container-md')
 
 
-let lm = function lightMode(){
-  document.body.style.backgroundColor = 'white';
-  modeSpan = 'Dark Mode';
 
-}
-let dm = function darkMode(){
-  document.body.style.backgroundColor = 'black';
-  modeSpan.innerHTML = 'Light Mode';
+
+let mC = function modeChanger(){
   
+   bd.classList.toggle("lightMode");
+
+   if(modeSpan.innerHTML === "Light Mode"){
+      modeSpan.innerHTML = "Dark Mode";
+      menuBG.style.backgroundColor = 'rgb(232,232,232)';
+    
+      
+      
+
+   }else{
+    modeSpan.innerHTML = "Light Mode";
+    menuBG.style.backgroundColor = 'rgb(38, 38, 38)'
+   }
+  
+
+
 }
 
-if(modeSpan == 'Light Mode'){
-  colorBTN.addEventListener('click', lm);
-}else{
-  colorBTN.addEventListener('click', dm);
-}
 
-
-
+  colorBTN.addEventListener('click', mC);
+ 
+ 
+ 
 
 
 // Open the Modal
