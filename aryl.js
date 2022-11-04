@@ -11,6 +11,10 @@ let logoB = document.querySelector('#logoB');
 let line  = document.querySelector('.line');
 let smIcons = document.querySelectorAll('i');
 let paragraph = document.querySelectorAll('p');
+let contactTitle = document.querySelector('h2');
+let subButton = document.querySelector('#subButton');
+let subText = document.querySelector('#subText');
+
 const darkGray = 'rgb(38,38,38)';
 const offWhite = 'rgb(216,216,216)';
 
@@ -19,25 +23,30 @@ const offWhite = 'rgb(216,216,216)';
 
 let mC = function modeChanger(){
   
-   bd.classList.toggle("lightMode");
+   bd.classList.toggle("lightMode");//Toggles background
 
-   if(modeSpan.innerHTML === "Light Mode"){//While already in dark mode
+   if(modeSpan.innerHTML === "Light Mode"){//While already in dark mode and span text in button is Light Mode
       modeSpan.innerHTML = "Dark Mode";
       menuBG.style.backgroundColor = 'rgb(232,232,232)';
       logoA.style.color = darkGray;
       logoB.style.color = darkGray;
       line.style.background = darkGray;
       linkColor.forEach(item => item.style.color = darkGray);
+
       linkColor.forEach(item => item.addEventListener('mouseover', function handleMouseOver(){
         item.style.color = 'rgb(196,196,196)';
       }))
+
       linkColor.forEach(item => item.addEventListener('mouseout', function handleMouseOut(){
         item.style.color = darkGray;
       }))
       
       smIcons.forEach(item => item.style.color = darkGray);
       paragraph.forEach(item => item.style.color = darkGray);
-   
+      contactTitle.style.color = darkGray;
+
+      subButton.className = 'btn btn-dark btn-sm';
+       
    
 
    }else{//When already in light mode
@@ -56,19 +65,19 @@ let mC = function modeChanger(){
       smIcons.forEach(item => item.style.color = offWhite);
 
       paragraph.forEach(item => item.style.color = offWhite);
+      contactTitle.style.color = offWhite;
+      subButton.className = 'btn btn-light btn-sm';
+      
+      
    }
   
 
-
 }
 
-
+//Mode Button event
   colorBTN.addEventListener('click', mC);
  
  
- 
-
-
 // Open the Modal
 function openModal() {
     document.getElementById("myModal").style.display = "block";
