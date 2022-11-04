@@ -5,11 +5,11 @@ let colorBTN = document.querySelector('#modeB');
 let modeSpan = document.querySelector('#mode');
 let bd  = document.body; 
 let menuBG = document.querySelector('.sideMenu .container-md')
-let linkColor = document.querySelectorAll('div.nav-item > a');
+let linkColor = document.querySelectorAll('#mItem');
 let logoA = document.querySelector('#logoA');
 let logoB = document.querySelector('#logoB');
 let line  = document.querySelector('.line');
-let smIcons = document.querySelectorAll('div.sm-icons > i');
+let smIcons = document.querySelectorAll('i');
 const darkGray = 'rgb(38,38,38)';
 const offWhite = 'rgb(216,216,216)';
 
@@ -26,19 +26,31 @@ let mC = function modeChanger(){
       logoA.style.color = darkGray;
       logoB.style.color = darkGray;
       line.style.background = darkGray;
+      linkColor.forEach(item => item.style.color = darkGray);
+      linkColor.forEach(item => item.addEventListener('mouseover', function handleMouseOver(){
+        item.style.color = 'rgb(196,196,196)';
+      }))
+      linkColor.forEach(item => item.addEventListener('mouseout', function handleMouseOut(){
+        item.style.color = darkGray;
+      }))
+      
+      smIcons.forEach(item => item.style.color = darkGray);
    
-      
-     
 
-      
-      
-
-   }else{
+   }else{//When already in light mode
     modeSpan.innerHTML = "Light Mode";
     menuBG.style.backgroundColor = darkGray;
     logoA.style.color =offWhite;
       logoB.style.color = offWhite;
       line.style.background = offWhite;
+      linkColor.forEach(item => item.style.color = offWhite);
+      linkColor.forEach(item => item.addEventListener('mouseover', function handleMouseOver(){
+        item.style.color = 'rgb(144,144,144)';
+      }))
+      linkColor.forEach(item => item.addEventListener('mouseout', function handleMouseOut(){
+        item.style.color = offWhite;
+      }))
+      smIcons.forEach(item => item.style.color = offWhite);
    }
   
 
