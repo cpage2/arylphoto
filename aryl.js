@@ -10,6 +10,7 @@ let logoA = document.querySelector('#logoA');
 let logoB = document.querySelector('#logoB');
 let line  = document.querySelector('.line');
 let smIcons = document.querySelectorAll('i');
+let paragraph = document.querySelectorAll('p');
 const darkGray = 'rgb(38,38,38)';
 const offWhite = 'rgb(216,216,216)';
 
@@ -35,6 +36,8 @@ let mC = function modeChanger(){
       }))
       
       smIcons.forEach(item => item.style.color = darkGray);
+      paragraph.forEach(item => item.style.color = darkGray);
+   
    
 
    }else{//When already in light mode
@@ -51,6 +54,8 @@ let mC = function modeChanger(){
         item.style.color = offWhite;
       }))
       smIcons.forEach(item => item.style.color = offWhite);
+
+      paragraph.forEach(item => item.style.color = offWhite);
    }
   
 
