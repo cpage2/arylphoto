@@ -30,6 +30,7 @@ a:link:active{
 .logo{
     margin-top: 25%;
     text-align: center;
+   
 }
 #logoA{
     color: rgb(216, 216, 216);
@@ -213,4 +214,85 @@ i{
   }
 
   
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media  (max-width: 991.98px) {
+  .gallery .container-md{
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
  
+ }
+  .mobButton{
+    display: block;
+    margin-top: 30px;
+    border: none;
+    width: 30px;
+    background-color: rgb(144, 144, 144);
+  }
+  html{
+    overflow-y: scroll;
+  }
+  .sideMenu .container-md{
+   
+    background-color: rgb(38, 38, 38);
+    position:relative !important;
+    width: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+
+    margin-top: 0;
+  }
+
+  .logo{
+    margin-top: 0;
+  }
+
+  .menu{
+    margin-top: 5%;
+  }
+
+  .sm-icons{
+    margin-top: 5%;
+  }
+
+  .modeButton{
+    margin-top: 5%;
+    padding-top: 0;
+  }
+
+
+
+
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .mobButton{
+    
+    display: none;
+  }
+  #mobileM{
+    display: block;
+  }
+ 
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+  
+  .mobButton{
+    display: none;
+  }
+  .sideMenu{
+    margin-top: 10%;
+  }
+  .gallery{
+    margin-top: 10%;
+  }
+ } 
