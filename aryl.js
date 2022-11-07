@@ -76,6 +76,30 @@ let mC = function modeChanger(){
 
 //Mode Button event
   colorBTN.addEventListener('click', mC);
+
+
+
+// For mobile menu
+let collMenu = document.querySelector(".collapse");
+let menuBars = document.querySelector(".mobButton")
+
+
+
+  if(menuBars.style.display !== "none"){
+          menuBars.onclick = function(){dropMenu()};
+
+          function dropMenu(){
+            document.querySelector(".collapse").classList.toggle("show");
+          }
+
+        }else{
+
+          menuBars.style.display = "none";
+        
+        }
+ 
+  
+ 
  
  
 // Open the Modal
@@ -118,3 +142,10 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+
+  // if page width hits 992
+  // hide original menu
+  // show new menu
+  // toggle menu
+  // else keep og menu
