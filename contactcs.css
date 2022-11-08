@@ -118,8 +118,21 @@ img{
 
 /* Small to Medium devices */
 @media  (max-width: 991.98px) {
-    
-    
+    img{
+        margin-top: 40px;
+        width: 50%;
+        height: auto;
+    }
+    .contact{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .mb-3{
+        width: 65%;
+        margin: 0 auto;
+    }
 
 
     .mobButton{
@@ -166,7 +179,7 @@ img{
     }
   
   /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {  
+  @media (min-width: 992px){  
     .mobButton{
       
       display: none;
@@ -175,15 +188,6 @@ img{
       display: block;
     }
    
-   }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) { 
-    
-    
-    .mobButton{
-      display: none;
-    }
     .sideMenu{
       margin-top: 10%;
     }

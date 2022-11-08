@@ -192,7 +192,7 @@ html body{
     }
   
   /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {  
+  @media (min-width: 992px)  {  
     .mobButton{
       
       display: none;
@@ -200,22 +200,18 @@ html body{
     #mobileM{
       display: block;
     }
+
+    .mobButton{
+        display: none;
+      }
+      .sideMenu{
+        margin-top: 10%;
+      }
+      .gallery{
+        margin-top: 10%;
+      }
    
    }
   
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) { 
-    
-    
-    .mobButton{
-      display: none;
-    }
-    .sideMenu{
-      margin-top: 10%;
-    }
-    .gallery{
-      margin-top: 10%;
-    }
-   } 
-
+  
  

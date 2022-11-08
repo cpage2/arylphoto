@@ -267,7 +267,7 @@ i{
   }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {  
+@media (min-width: 992px) {  
   .mobButton{
     
     display: none;
@@ -276,15 +276,6 @@ i{
     display: block;
   }
  
- }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  
-  
-  .mobButton{
-    display: none;
-  }
   .sideMenu{
     margin-top: 10%;
   }
