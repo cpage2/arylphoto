@@ -22,3 +22,10 @@ Website is mobile responsive.
 # Issues
 Currently, the pages do not stay in "Light Mode" once a new page is clicked.
 It will revert back to dark, so the user will have to click the "Light Mode" button again.
+
+# Screenshots
+
+![ARYL Home Phone View](/Screenshots/Gallery-ph.png)
+![Slideshow](/Screenshots/Slideshow-ph.png)
+![ARYL About Page](/Screenshots/about-ph.png)
+![ARYL Contact Page](/Screenshots/Contact-lp.png)
