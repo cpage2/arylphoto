@@ -188,10 +188,8 @@ img{
       display: block;
     }
    
-    .sideMenu{
-      margin-top: 10%;
-    }
-    .gallery{
-      margin-top: 10%;
+    img{
+      margin-top: 5%;
+     
     }
    } 

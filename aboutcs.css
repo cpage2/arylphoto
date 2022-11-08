@@ -204,11 +204,9 @@ html body{
     .mobButton{
         display: none;
       }
-      .sideMenu{
-        margin-top: 10%;
-      }
-      .gallery{
-        margin-top: 10%;
+     
+      .contact{
+        margin-top: 5%;
       }
    
    }

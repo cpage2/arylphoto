@@ -98,7 +98,7 @@ i{
 
 /* ----Mossaic Gallery---- */
 .gallery .container-md{
-   width: 50%;
+   width: 60%;
    margin:5% 30%;
 
 }
@@ -276,9 +276,7 @@ i{
     display: block;
   }
  
-  .sideMenu{
-    margin-top: 10%;
-  }
+  
   .gallery{
     margin-top: 10%;
   }
