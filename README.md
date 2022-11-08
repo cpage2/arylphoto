@@ -25,8 +25,8 @@ It will revert back to dark, so the user will have to click the "Light Mode" but
 
 # Screenshots
 
-![ARYL Home Phone View](/Screenshots/Gallery-ph.png)
-<img src ="/Screenshots/Gallery-ph.png" height = "100">
-![Slideshow](/Screenshots/Slideshow-ph.png)
-![ARYL About Page](/Screenshots/about-ph.png)
-![ARYL Contact Page](/Screenshots/Contact-lp.png)
+
+<img src ="/Screenshots/Gallery-ph.png" height = "400">
+<img src ="/Screenshots/Slideshow-ph.png" height = "400">
+<img src ="/Screenshots/about-ph.png" height = "400">
+<img src ="/Screenshots/Contact-lp.png" height = "400">
