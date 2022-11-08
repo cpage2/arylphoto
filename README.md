@@ -1,7 +1,7 @@
 # ARYL Photo
 Photography Portfolio site
 
-![ARYL Home Page](/Aryl Photo/Screenshots/Galley-lp.png)
+![ARYL Home Page](/Screenshots/Gallery-lp.png)
 
 # Description
 Project is a simple portfolio site for a photographer. A gallery makes up
