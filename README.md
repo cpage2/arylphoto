@@ -25,6 +25,8 @@ Website is mobile responsive.
 Currently, the pages do not stay in "Light Mode" once a new page is clicked.
 It will revert back to dark, so the user will have to click the "Light Mode" button again.
 
+Contact submission is for show for now.
+
 # Screenshots
 
 
