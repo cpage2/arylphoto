@@ -24,9 +24,11 @@ const offWhite = 'rgb(216,216,216)';
 let mC = function modeChanger(){
   
    bd.classList.toggle("lightMode");//Toggles background
+   
 
    if(modeSpan.innerHTML === "Light Mode"){//While already in dark mode and span text in button is Light Mode
       modeSpan.innerHTML = "Dark Mode";
+    
       menuBG.style.backgroundColor = 'rgb(232,232,232)';
       logoA.style.color = darkGray;
       logoB.style.color = darkGray;
@@ -129,7 +131,6 @@ function openModal() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("demo");
-    // var captionText = document.getElementById("caption");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -143,9 +144,3 @@ function openModal() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
 
-
-  // if page width hits 992
-  // hide original menu
-  // show new menu
-  // toggle menu
-  // else keep og menu
