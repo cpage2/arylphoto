@@ -144,3 +144,9 @@ function openModal() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
 
+
+  // if page width hits 992
+  // hide original menu
+  // show new menu
+  // toggle menu
+  // else keep og menu
